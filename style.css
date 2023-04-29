@@ -1,0 +1,64 @@
+*{
+  background-color: black;
+  color: #ffff;
+}
+a {
+  text-decoration: none;
+ 
+}
+.bar{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.right{
+   display: flex;
+  gap :30px;
+  }
+input{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+#login{
+ padding: 20px;
+  padding-left:170px ;
+  display: flex;
+   flex-direction: column;
+  gap: 40px;
+  
+}
+#head{
+  padding: 20px;
+  padding-left:170px ;
+}
+#signup, #logout{
+  background-color: #fff;
+  color: #000;
+  border:0;
+  border-radius:5px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#error{
+  display: none;
+  color: red;
+}
+#success{
+  
+  display: none;
+  color:green;
+}
+#profile{
+/*   display:none; */
+   padding: 20px;
+  padding-left:170px ;
+}
+p{
+  font-size: 25px;
+}
+
